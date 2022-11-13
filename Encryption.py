@@ -46,4 +46,5 @@ for i in range(0,len(code)-1):
     bytearray[i]=bytearray[i]-8
 print("code After decryption :")
 print("-----------------------------------------------------------------------")
-print(bytearray)
+bytearray1=bytearray.decode()
+print(bytearray1)
